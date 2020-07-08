@@ -1,0 +1,223 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  background:rgb(255, 224, 187);
+}
+
+
+.button {
+  cursor: pointer;
+  padding: 1rem;
+  width: 120px;
+}
+
+.menu {
+  position: fixed;
+  top:0;
+  right:-300px;
+  width:300px;
+  background:rgb(255, 147, 231);
+  height: 100vh;
+  transition: transform .3s ease;
+  z-index:1;
+  padding: 30px;
+  padding-left: 50px;
+}
+
+.menuicon {
+  max-width:30%;
+  height:auto;
+}
+
+.style {
+  transform: translateX(-300px);
+}
+
+.posters{
+
+  text-align: align;
+  color:rgb(95, 77, 247);
+}
+
+.myDIV{
+  font-family: 'Elsie', cursive;
+  font-size: 30px;
+  position:relative;
+  text-decoration: none;
+  display:block;
+  margin: 30px 0;
+  /* background: rgb(230, 108, 126); */
+}
+
+.myDIV::before{
+  position: absolute;
+  left: -30px;
+}
+
+.myDIV::after{
+  position: absolute;
+}
+
+.myDIV:hover::before{
+  content: "♡";
+}
+
+.myDIV:hover::after{
+  content: "♡";
+}
+
+.publications {
+  font-family: 'Elsie', cursive;
+  font-size: 30px;
+  text-align: align;
+  color:rgb(16, 202, 227);
+}
+
+.installations {
+  font-family: 'Elsie', cursive;
+  font-size: 30px;
+  text-align: align;
+  color:rgb(68, 147, 83);
+}
+
+.clientwork {
+  font-family: 'Elsie', cursive;
+  font-size: 30px;
+  text-align: align;
+  color:rgb(237, 220, 62);
+}
+
+.photo {
+  font-family: 'Elsie', cursive;
+  font-size: 30px;
+  text-align: align;
+  color:rgb(255, 133, 33);
+}
+
+.about {
+  font-family: 'Elsie', cursive;
+  font-size: 30px;
+  text-align: align;
+  color:rgb(232, 117, 255);
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display:inline-block;
+  position:absolute;
+  }
+
+  .circle1 {
+    display: block;
+    background: rgb(95, 77, 247);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+  }
+
+  .circle2 {
+    display: block;
+    background: rgb(16, 202, 227);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+  }
+
+  .circle3 {
+    display: block;
+    background: rgb(68, 147, 83);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+  }
+
+  .circle4 {
+    display: block;
+    background: rgb(237, 220, 62);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+  }
+
+  .circle5 {
+    display: block;
+    background: rgb(255, 133, 33);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+  }
+
+  .circle6 {
+    display: block;
+    background: rgb(232, 117, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:absolute;
+  }
+
+  .circle1:hover{
+    background: radial-gradient(ellipse at center, rgba(210,255,82,1) 0%, rgba(247,129,247,1) 57%, rgba(135,227,250,1) 88%, rgba(135,227,250,1) 100%);
+  }
+
+  .circle2:hover{
+    background: radial-gradient(ellipse at center, rgba(255,84,255,1) 0%, rgba(133,245,223,1) 62%, rgba(135,227,250,1) 88%, rgba(135,227,250,1) 100%);
+  }
+
+  .circle3:hover{
+    background: radial-gradient(ellipse at center, rgba(192,84,255,1) 0%, rgba(150,255,166,1) 59%, rgba(82,255,91,1) 88%, rgba(82,255,91,1) 100%);
+  }
+
+  .circle4:hover{
+    background: radial-gradient(ellipse at center, rgba(255,115,211,1) 0%, rgba(255,115,211,1) 5%, rgba(255,238,54,1) 52%, rgba(253,255,219,1) 88%, rgba(253,255,219,1) 100%);
+  }
+
+  .circle5:hover{
+    background: radial-gradient(ellipse at center, rgba(148,255,61,1) 0%, rgba(148,255,61,1) 5%, rgba(255,166,23,1) 55%, rgba(255,168,168,1) 88%, rgba(255,168,168,1) 100%);
+  }
+
+  .circle6:hover{
+    background: radial-gradient(ellipse at center, rgba(61,116,255,1) 0%, rgba(61,116,255,1) 5%, rgba(209,168,255,1) 49%, rgba(255,133,237,1) 81%, rgba(255,133,237,1) 100%);
+  }
+
+
+
+  .icon1{
+    top: 150px;
+    left: 420px;
+  }
+
+  .icon2{
+    top: 70px;
+    left: 620px;
+  }
+
+  .icon3{
+    top: 70px;
+    left: 220px;
+  }
+
+  .icon4{
+    top: 270px;
+    left: 120px;
+  }
+
+  .icon5{
+    top: 270px;
+    left: 720px;
+  }
+
+  .icon6{
+    top: 470px;
+    left: 420px;
+  }

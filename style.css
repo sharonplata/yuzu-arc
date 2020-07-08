@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background:rgb(255, 124, 238);
+}
+
+div.a{
+  /* text-align: center; */
+  /* height: 100vh; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* height: auto; */
+  /* max-width:20%; */
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width:30%;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin:0;
+}
